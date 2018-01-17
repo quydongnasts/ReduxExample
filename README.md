@@ -9,6 +9,6 @@
 
 • import { connect } from 'react-redux';
 
-• + <Provider store={store}>
+• Provider store={store}
 
 • export default connect()(ComponentName);
